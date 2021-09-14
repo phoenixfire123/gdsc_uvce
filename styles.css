@@ -1,0 +1,52 @@
+body
+{
+    background-color: whitesmoke;
+    font-family: "Lato",Arial,sans-serif;
+    letter-spacing: 2px;
+}
+.profilepic
+{
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    max-width: 100px;
+    border-radius: 50%;
+
+    
+}
+.profilename
+{
+    text-align: center;
+    padding: 20px;
+    font-size: x-large;
+
+}
+.links
+{
+    text-align: center;
+    margin-top: 20px;
+    border: 3px solid lightgreen;
+    border-width: 2px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: x-large;
+    padding: 20px;
+    
+
+
+}
+a
+{
+    color:black;
+    text-decoration: wavy;
+    transition: color 1s;
+
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: lightgreen;
+}
